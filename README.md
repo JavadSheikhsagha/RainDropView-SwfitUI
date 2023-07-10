@@ -1,3 +1,3 @@
 # RainDropView-SwfitUI
 
-![Alt Text](https://github.com/JavadSheikhsagha/RainDropView-SwfitUI/blob/main/gif.gif)
+<img src="https://github.com/JavadSheikhsagha/RainDropView-SwfitUI/blob/main/gif.gif" width="48">
