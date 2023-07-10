@@ -11,7 +11,7 @@ import SwiftUI
 struct RainViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RainDropView()
         }
     }
 }

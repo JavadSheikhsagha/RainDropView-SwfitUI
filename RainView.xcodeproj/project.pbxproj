@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		801226E52A5C080A0051F02D /* RainViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801226E42A5C080A0051F02D /* RainViewApp.swift */; };
-		801226E72A5C080A0051F02D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801226E62A5C080A0051F02D /* ContentView.swift */; };
+		801226E72A5C080A0051F02D /* RainDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801226E62A5C080A0051F02D /* RainDropView.swift */; };
 		801226E92A5C080B0051F02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801226E82A5C080B0051F02D /* Assets.xcassets */; };
 		801226ED2A5C080B0051F02D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801226EC2A5C080B0051F02D /* Preview Assets.xcassets */; };
+		801226F42A5C084A0051F02D /* RainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801226F32A5C084A0051F02D /* RainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		801226E12A5C080A0051F02D /* RainView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801226E42A5C080A0051F02D /* RainViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainViewApp.swift; sourceTree = "<group>"; };
-		801226E62A5C080A0051F02D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		801226E62A5C080A0051F02D /* RainDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainDropView.swift; sourceTree = "<group>"; };
 		801226E82A5C080B0051F02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801226EA2A5C080B0051F02D /* RainView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RainView.entitlements; sourceTree = "<group>"; };
 		801226EC2A5C080B0051F02D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		801226F32A5C084A0051F02D /* RainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				801226E42A5C080A0051F02D /* RainViewApp.swift */,
-				801226E62A5C080A0051F02D /* ContentView.swift */,
+				801226E62A5C080A0051F02D /* RainDropView.swift */,
+				801226F32A5C084A0051F02D /* RainViewModel.swift */,
 				801226E82A5C080B0051F02D /* Assets.xcassets */,
 				801226EA2A5C080B0051F02D /* RainView.entitlements */,
 				801226EB2A5C080B0051F02D /* Preview Content */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801226E72A5C080A0051F02D /* ContentView.swift in Sources */,
+				801226E72A5C080A0051F02D /* RainDropView.swift in Sources */,
+				801226F42A5C084A0051F02D /* RainViewModel.swift in Sources */,
 				801226E52A5C080A0051F02D /* RainViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
